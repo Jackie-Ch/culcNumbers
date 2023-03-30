@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/culcNumbers/static/css/main.53083673.css",
+    "main.js": "/culcNumbers/static/js/main.383a70c1.js",
+    "static/js/787.410f0bfc.chunk.js": "/culcNumbers/static/js/787.410f0bfc.chunk.js",
+    "index.html": "/culcNumbers/index.html",
+    "main.53083673.css.map": "/culcNumbers/static/css/main.53083673.css.map",
+    "main.383a70c1.js.map": "/culcNumbers/static/js/main.383a70c1.js.map",
+    "787.410f0bfc.chunk.js.map": "/culcNumbers/static/js/787.410f0bfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53083673.css",
+    "static/js/main.383a70c1.js"
+  ]
+}
