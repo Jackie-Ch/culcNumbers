@@ -6,9 +6,10 @@ export function calculate(data) {
   }
   const position2 = Number(month);
   let position3 = position1 + position2;
-  if (position3 > 22) {
-    position3 = position3 - 22;
-  }
+  position3 = position3 > 22 ? position3 - 22 : position3;
+  // if (position3 > 22) {
+  //   position3 = position3 - 22;
+  // }
   let position4 = year.split('').reduce((acc, current) => {
     return acc + Number(current);
   }, 0);
@@ -36,17 +37,18 @@ export function calculate(data) {
     position9 = position9 - 22;
   }
   let position10 = position1 - position2;
-  if (position10 < 0) {
+  if (position10 <= 0) {
     position10 = position10 + 22;
   }
   let position11 = position2 - position4;
-  if (position11 < 0) {
+  if (position11 <= 0) {
     position11 = position11 + 22;
   }
   let position12 = position10 - position11;
-  if (position12 < 0) {
+  if (position12 <= 0) {
     position12 = position12 + 22;
   }
+  console.log(position4);
   return [
     position1,
     position2,

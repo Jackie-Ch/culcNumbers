@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Table({ numbers }) {
+  // console.log(numbers);
   function convertToRoman(number) {
     let roman = {
       M: 1000,
